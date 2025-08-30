@@ -4,13 +4,18 @@ personalised dotfiles,mainly '.vimrc' as of now
 
 ## features
 
-1.) configured mainly for C
-    - uses \r for save,compile and execute while clearing prev output buffer,can be modified to your wish
-    - an additional \f while dealing with non-native c libraries,but required to enter the flag. e.g. for math.h,enter \f -lm
-    - syntax highlighting	
-2.) configured for python
-    - always makes sure the tab indent space is set to 4,along with other sytax features
-    - syntax highlighting
+### Config for C development
+- Custom keybindings:
+  - `\r` → save, compile, and execute (clears previous output buffer)
+  - `\f` → compile with extra flags (useful for non-native C libraries, e.g. `-lm` for `math.h`)
+- Syntax highlighting
+
+### Config for python development
+- Enforces 4-space indentation
+- Syntax highlighting
+
+### Assembly (uses nasm x86)
+- Highlights comments in red
 
 ## usage
 
