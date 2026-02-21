@@ -19,8 +19,16 @@ personalised dotfiles,mainly '.vimrc' as of now
 
 ## usage
 
-clone the repository and run install.sh to symlink 
+clone the repository
+copy/replace the whole file to use as your .vimrc
+open your vim text editor and type 
+`:source ~/.vimrc` 
 
+refer the code down below for usage
 ```bash
-git clone https://github.com/javed-habeeb/dotfiles.git	~/dotfiles
-./install.sh
+git clone https://github.com/javed-habeeb/dotfiles.git
+cd ~/dotfiles
+```
+## uninstall
+if you ever feel to revert back to regular vim.clear or delete the whole .vimrc file
+
