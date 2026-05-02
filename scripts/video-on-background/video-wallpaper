@@ -1,0 +1,5 @@
+#!/bin/bash
+xwinwrap -fs -fdt -nf -- \
+mpv -wid WID --no-audio --loop --profile=low-latency \
+--hwdec=no ~/path/to/your/video
+
